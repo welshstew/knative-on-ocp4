@@ -12,7 +12,7 @@ spec:
   - name: build
     taskRef:
       kind: Task
-      name: s2i-quarkus-native
+      name: s2i-java
     params:
       - name: TLSVERIFY
         value: "false"
