@@ -32,8 +32,3 @@ spec:
     params:
     - name: SCRIPT
       value: oc rollout latest msgtxr
-    - name: ARGS
-      value: 
-           - rollout
-           - latest
-           - msgtxr
